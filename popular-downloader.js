@@ -1,6 +1,6 @@
-let rp = require('request-promise');
-let path = require('path');
-let fs = require('fs');
+var rp = require('request-promise');
+var path = require('path');
+var fs = require('fs');
 
 rp('https://reddit.com/r/popular.json')
     .then(res => {

@@ -1,8 +1,8 @@
-let rp = require('request-promise');
-let path = require('path');
-let fs = require('fs');
+var rp = require('request-promise');
+var path = require('path');
+var fs = require('fs');
 
-let articleArray = [];
+var articleArray = [];
 
 dataPath = path.join(__dirname, './popular-articles.json');
 
